@@ -370,6 +370,7 @@ td img{
     margin-right: 10px;   
 }
 
+
 .total-price{
     display: flex;
     justify-content: flex-end;
@@ -429,24 +430,93 @@ th:last-child{
     transition: transform 1s;
 
 }
+
+/*
 form input{
-    width: 100%;
+    width: 15%;
     height: 30px;
     margin: 10px 0;
     padding: 0 10px;
     border: 1px solid #ccc;
-}
+}*/
 
-form .btn{
+
+
+
+
+
+
+
+
+
+
+.abtn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.abtn:hover{
+    background: #563434;
+}
+form .abtn{
     width: 100%;
     border: none;
     cursor: pointer;
     margin: 10px 0;
 }
 
+form .abtn:focus{
+    outline: none;
+}
+
+
+
+form .btn{
+    width: 35%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+
+
+
+
+.pbtn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.pbtn:hover{
+    background: #563434;
+}
+
+form .pbtn{
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+form .pbtn:focus{
+    outline: none;
+}
+
+
+
+
+
 form .btn:focus{
     outline: none;
 }
+
 
 #LoginForm{
     left: -300px;
@@ -473,29 +543,7 @@ form .btn:focus{
 /* -----------------------Account Page ------------------------------- */
 
 
-.contact{
-    width: 80%;
-    margin: 50px auto;
-}
 
-.contact-box{
-    background: white;
-    display: flex;
-}
-
-.contact-left{
-    flex-basis: 60%;
-    padding: 40px 60px;
-}
-
-.contact-right{
-    flex-basis: 60%;
-    padding: 40px;
-    background: #ff523b;
-    color: white;
-
-
-}
 
 h1{
     margin-bottom: 10px ;
@@ -526,7 +574,3 @@ img{
 .imgg-col{
     flex-basis: 30%;
 }
-
-
-
-
