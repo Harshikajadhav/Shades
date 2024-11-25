@@ -1,0 +1,187 @@
+<!DOCTYPR html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>All Products - Shades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2366c91d64.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+
+
+
+    
+    <div class="container">
+        <div class="navbaar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Home Delivery.html">Order</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact1.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>      
+
+
+
+
+
+<!--------------- Main form----------------->
+
+<!-- contact section starts  -->
+
+<div class="contact">
+    <h1>Connect with us</h1>
+    <p>We would love to respond your queries and help you succeed. Feel free to get in touch with us.</p>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Send your request</h3><br>
+            <form>
+                <div class="input-row">
+                    
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="+91 9810001111">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="text" placeholder="xyz@gmail.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label> Address <label>
+                        <input type="text" placeholder="Your Address">
+                    </div>
+                </div>
+
+                <a href="" class="btn">Send &#8594;</a>
+
+            </form>
+
+        </div>
+
+    
+        <div class="contact-right">
+            <h3>Reach Us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>shadesofficial@gmail.com</td></tr>
+
+                <tr>
+                    <td>Phone</td>
+                    <td>+91 9910001111</td><br>
+                </tr>
+
+                <tr>
+                    <td>Address</td>
+                    <td>303, Ground Floor, 7th Cross<br>
+                    Vidhya Road, Opp to Mumbai Station<br>
+                    Mumbai, 200310</td>
+                </tr>
+            </table>
+        </div>  
+    </div>
+</div>
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+
+
+
+                <!--------Footer---------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            
+            
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and IOS mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our purpose is to sustainably make the pleasure and benefits of our brand to many.</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Block Host</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="project">Made by Aditi Mishra and Harshika Jadhav</p>
+    </div>
+</div>
+
+        <!----------js for Toggle Form -------------->
+
+        <script>
+            var LoginForm = document.getElementById("LoginForm");
+            var RegForm = document.getElementById("RegForm");
+            var Indicator = document.getElementById("Indicator");
+
+            function register(){
+                RegForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)";
+            }
+
+            function login(){
+                LoginForm.style.transform = "translateX(300px)";
+                RegForm.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateX(0px)";
+            }
+
+        </script>
+
+
+    </body>
+</html>

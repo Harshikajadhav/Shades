@@ -1,0 +1,210 @@
+<!DOCTYPR html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>All Products - Shades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2366c91d64.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+
+
+
+    
+    <div class="container">
+        <div class="navbaar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="Home Delivery.html">Order</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact1.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>      
+
+
+
+
+
+<!--------------- Main form ----------------->
+
+<!-- contact section starts -->
+
+
+<div class="contact">
+    <h1>Book your Order</h1>
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3>Please fill these details to book your Order</h3><br>
+            <form>
+                <div class="input-row">
+                    
+                    <div class="input-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Your Name">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="+91 9910001111">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="text" placeholder="xyz@gmail.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label>Your Address <label>
+                        <input type="text" placeholder="Your Address">
+                    </div>
+
+                    <div class="input-group">
+                        <label> Our Address<label><br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30263.37740074305!2d73.81938728948877!3d18.532418697668078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf7e4bd86a27%3A0x1d9421ddb96610b!2sModel%20Colony%2C%20Shivajinagar%2C%20Pune%2C%20Maharashtra%20411016!5e0!3m2!1sen!2sin!4v1649658302073!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <br><br>
+
+
+                </div>
+
+                <a href="" class="btn">Send &#8594;</a>
+
+            </form>
+
+        </div>
+
+        <!-------
+            
+        <div class="contact-right">
+            <h3>Reach Us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>shadesofficial@gmail.com</td></tr>
+
+                <tr>
+                    <td>Phone</td>
+                    <td>+91 9910001111</td><br>
+                </tr>
+
+                <tr>
+                    <td>Address</td>
+                    <td>303, Ground Floor, 7th Cross<br>
+                    Vidhya Road, Opp to Mumbai Station<br>
+                    Mumbai, 200310</td>
+                </tr>
+            </table>
+        </div> -->  
+    </div>
+</div> 
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!--------Footer---------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            
+            
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and IOS mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our purpose is to sustainably make the pleasure and benefits of our brand to many.</p>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Block Host</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="project">Made by Aditi Mishra and Harshika Jadhav</p>
+    </div>
+</div>
+
+        <!----------js for Toggle Form -------------->
+
+        <script>
+            var LoginForm = document.getElementById("LoginForm");
+            var RegForm = document.getElementById("RegForm");
+            var Indicator = document.getElementById("Indicator");
+
+            function register(){
+                RegForm.style.transform = "translateX(0px)";
+                LoginForm.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)";
+            }
+
+            function login(){
+                LoginForm.style.transform = "translateX(300px)";
+                RegForm.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateX(0px)";
+            }
+
+        </script>
+
+
+    </body>
+</html>
